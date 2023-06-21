@@ -1,0 +1,87 @@
+.body__bannerBoxHotelSubPageBanners{
+    background: url("../images/897f5e4d3ab63c42f73f86e4975a2406%202%20%284%29.png");
+}
+.body__restaurantMainSliderBox{
+    width: 1059px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body__restaurantMainSlider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.restaurantMainSlider__item{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.body__restaurantMainSlider .slick-list{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.body__restaurantMainSlider .slick-track{
+    display: flex;
+}
+.body__restaurantMainSlider .slick-arrow{
+    position: absolute;
+    z-index: 1;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+}
+.body__restaurantMainSlider .slick-prev{
+    left: -40px;
+    background: url("../images/Group%201569.png");
+}
+.body__restaurantMainSlider .slick-next{
+    right: -40px;
+    background: url("../images/Group%201271.png");
+}
+.restaurantMainSliderBox__button{
+    width: 160px;
+    height: 30px;
+    background: #D7B571;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.restaurantMainSliderBox__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.restaurantMainSliderBox__text{
+    width: 880px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.restaurantMainSliderBox__text:last-child{
+}

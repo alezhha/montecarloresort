@@ -1,0 +1,89 @@
+.body__bannerBoxHotelSubPageBanners{
+    background: url("../images/massage-institut-de-beaute-a-montauban---o-zen-spa%201.png");
+}
+.body__poolMainInfoBox{
+    width: 1059px;
+    height: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.poolMainInfoBox__leftBox{
+    width: calc(50% - 9.5px);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.poolMainInfoBox__rightBox{
+    width: calc(50% - 9.5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.poolMainInfoBox-rightBox__imgBox{
+    width: 100%;
+    height: 307px;
+    background-size: cover;
+    background-position: center;
+}
+.poolMainInfoBox-rightBox__textBox{
+    height: calc(100% - 307px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poolMainInfoBox-rightBox__textBoxWrapper{
+    width: 480px;
+}
+.poolMainInfoBox-rightBox__textBox h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 21px;
+}
+.poolMainInfoBox-rightBox__textBox p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.poolMainInfoBox-rightBox__textBox button{
+    width: 160px;
+    height: 30px;
+    background: #D7B571;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    justify-content: center;
+    cursor: pointer;
+}
+.body__poolBarBannerBox{
+    background-size: cover;
+    background-position: center;
+}
+.conferenceSliderBox__additionalInfoBox{
+    display: flex;
+}
+.body__reviewBox span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}

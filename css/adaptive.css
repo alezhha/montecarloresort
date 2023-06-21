@@ -1,0 +1,924 @@
+@media (max-width: 1059px){
+    /* Footer */
+    .footer{
+        margin-top: 50px;
+    }
+    
+    .header__mainContainer, .header-subContainer__mainContainer, .body__reviewBox h1{
+        width: 90%;
+    }
+    .footer__contacts{
+        width: 90%;
+    }
+    .footer-subBar__mainContainer{
+        width: 90%;
+    }
+    .body__reservationBox{
+        width: 90%;
+    }
+    .body__mainSlider .slick-next{
+        right: 80px;
+    }
+    .body__mainSlider .slick-prev{
+        left: 70px;
+    }
+    .body__mainSlider{
+        width: 90%;
+    }
+    .body__sliderNavItems{
+        width: 90%;
+    }
+    .body__weddingSlider .slick-prev{
+        right: 30px;
+        top: -8%;
+    }
+    .body__weddingSlider .slick-next{
+        right: 0px;
+        top: -8%;
+
+    }
+    .body__weddingSlider{
+        width: 90%;
+    }
+    .body__promotionSliderBox{
+        width: 90%;
+    }
+    .restaurantServiceSliderBox__mainContainer{
+        width: 90%;
+    }
+    .body__mapBox {
+        width: 90%;
+    }
+    .reservationBox-form__itemBox select{
+        width: 230px;
+    }
+    .reservationBox-form__itemBox input{
+        width: 110px;
+    }
+    .reservationBox__form button {
+        width: 170px;
+    }
+
+
+    /* Svadba */
+    .body__sitesSelectionSliderShadowWrapper{
+        width: 90%;
+    }
+    .body__sitesSelectionSlider .slick-next {
+        right: 8px;
+    }
+    .body__sitesSelectionSlider .slick-prev {
+        left: 8px;
+    }
+    .body__sitesSelectionSliderBox {
+        width: 90%;
+    }
+  
+
+    /* History */
+    .body__historyTextBox {
+        width: 90%;
+    }
+    .body__hotelsHistoryBox {
+        width: 90%;
+    }
+    .body__historyGreetingsBox {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    /* Bancet */
+    .body__banquetsMainSlider .slick-list {
+        width: 90%;
+    }
+    .body__banquetsMainSlider .slick-next{
+        right: 0px;
+    }
+    .body__banquetsMainSlider .slick-prev{
+        left: 0px;
+    }
+    .body__restaurantMainSliderBox{
+        width: 90%;
+    }
+
+    /* Spa */
+    .body__poolMainInfoBox{
+        width: 90%;
+    }
+    .conferenceSliderBox-additionalInfoBox__mainContainer{
+        width: 90%;
+    }
+    /* Conferens */
+    /* .body__bannerBoxHotelSubPageBanners {
+
+        width: 90%;
+    } */
+    .body__bannerBoxHotelSubPageBanners h1{
+        font-size: 24px;
+    }
+    .body__bannerBoxHotelSubPageBanners p{
+        font-size:  16px;
+        width: 90%;
+    }
+    .body__aboutConferenceRoomsInfo h1{
+        font-size: 24px;
+    }
+    .body__aboutConferenceRoomsInfo p{
+        font-size: 18px;
+        width: 90%;
+    }
+    .body__reviewBox h1{
+        font-size: 24px;
+    }
+    .reviewBox__linksWrapper{
+        width: 90%;
+    }
+    /* .slick-list{
+        display: none;
+    } */
+    .conferenceSliderBox__mainContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+
+    }
+    .conferenceSliderBox__mainContainer {
+        width: 90%;
+    }
+    
+    .conferencePageSliderRight .body__conferenceSlider{
+        display: none;
+    }
+    .conferencePageSliderRight .conferenceSliderBox__mainContainer{
+        width: 90%;
+    }
+    .conferenceSliderBox__textInfoWrapper {
+        width: 100%;
+    }
+    .conferencePage .body__conferenceSliderBox h1{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .conferencePage .conferenceSliderBox__buttonsBox{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .conferencePage .body__conferenceSliderBox p{
+        text-align: center;
+    }
+    .conferencePage .body__reviewBoxLink{
+        font-size: 14px;
+    }
+   
+}
+@media (max-width: 768px) {
+    .pc_history{
+        display: none;
+    }
+    .body__hotelsHistoryBox{
+        margin-top: auto;
+    }
+    .mobile_history{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .historyBishkek__text{
+        width: 100%;
+        font-size: 16px;
+        line-height: 160%;
+        color: #000;
+        text-align: center;
+    }
+    .history__imageBlock{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        height: 270px;
+    }
+    .mobile_history .historyBishkek__title{
+        text-align: center;
+        color: #000;
+    }
+    .header__hotelText{
+        display: none;
+    }
+    .header__changeHotelButton:hover + .header__listOfHotels{
+        z-index: 2;         
+    }
+    .header__subContainer, .header__rightContainer button,.header__rightContainer > a{
+        display: none;
+    }
+    .header__mainContainer{
+        position: relative;
+    }
+    .header-mobileMenu__dropdown{
+        display: flex;
+    }
+    .body{
+        margin-top: 80px;
+    }
+    .body__conferenceSliderBox{
+        height: unset;
+    }
+    .body__conferenceSlider{
+        display: none;
+    }
+    .conferenceSliderBox__mainContainer{
+        width: 100%;
+        align-items: center;
+    }
+    .conferenceSliderBox__textInfoWrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conferenceMobileSlider__item{
+        height: auto;
+    }
+    .body__conferenceSliderBox h1{
+        text-align: center;
+        font-size: 26px;
+        line-height: 32px;
+        white-space: nowrap;
+    }
+    .body__conferenceSliderBox p{
+        font-size: 16px;
+        line-height: 123.5%;
+        text-align: center;
+    }
+    /* Footer */
+    .footer__groupingBox{
+        text-align: center;
+        align-items: center;
+    }
+    .footer__contacts{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    /* Hotel */
+    .reservationBox__form{
+        flex-wrap: wrap;
+    }
+    .reservationBox-form__itemBox {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .form_hotel{
+        width: 90%;
+    }
+    .reservationBox-form__itemBox select {
+        width: 100%;
+        padding-left: 0;
+    }
+    .reservationBox-form__itemBox label {
+        left: 0;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .input_hotel{
+        width: 49%!important;
+        margin-top: 30px;
+    }
+    .reservationBox-form__itemBox input {
+        width: 100%;
+    }
+    .reservationBox__form button{
+        margin-top: 20px;
+    }
+    .last{
+        display: flex;
+        width: 49%!important;
+    }
+    .reservationBox__form button{
+        width: 49%;
+        margin-top: 29px;
+    }
+    .body__mainSliderBox p{
+        width: 90%;
+    }
+    .body__mainSlider .slick-next {
+        right: 20px;
+    }
+    .body__mainSlider .slick-prev {
+        left: 20px;
+    }
+    .body__mainSlider .slick-list {
+        height: 400px;
+    }
+    .body__banquetsBannerBox{
+        background-position: center;
+    }
+    .body__banquetsBannerBox p {
+        width: 90%;
+    }
+    .body__restaurantServiceSliderBox p {
+        max-width: 360px;
+    }
+ 
+
+    /* .restaurantServiceSliderBox__button{
+        width: 100%;
+    } */
+  
+    .body__banquetsBannerBox{
+        margin-top: 80px;
+    }
+    .body__promotionSliderBox h1{
+        text-align: center;
+    }
+    .footer__groupingBox a{
+        margin-top: 10px;
+    }
+    .footer__buttons{
+        display: flex;
+    }
+    .adaptive__logos{
+        display: flex;
+    }
+    .adaptive__logos img:last-child{
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+    .email__footer{
+        display: flex;
+    }
+    .email__footer a{
+        margin-top: 0;
+    }
+    .hidden_xs{
+        display:none;
+    }
+    /* Conferens */
+    .conferenceSliderBox-additionalInfoBox__mainContainer {
+        width: 89%;
+        display: flex;
+        flex-direction: unset;
+    }
+    .conferenceSliderBox__additionalInfoItemsWrapper{
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .conferenceSliderBox__additionalInfoItemsWrapper:last-child{
+        margin-left: 80px;
+    }
+
+
+    /* Vacansion */
+    .body__vacancyCard{
+        width: 90%;
+    }
+    .body__vacancyCards {
+        width: 90%;
+    }
+    /* Svadba */
+    .sitesSelectionSliderBox__text{
+        width: 90%;
+    }
+    /* Spa */
+    .poolMainInfoBox-rightBox__textBoxWrapper{
+        width: 90%;
+    }
+    .poolMainInfoBox__leftBox{
+        display: none;
+    }
+    .poolMainInfoBox-rightBox__textBox h1 {
+        font-size: 30px;
+    }
+    /* Restaurant */
+    .restaurantMainSliderBox__text{
+        width: 90%;
+    }
+    .body__restaurantMainSlider .slick-next{
+        right: -30px;
+    }
+    .body__restaurantMainSlider .slick-prev{
+        left: -30px;
+    }
+    /* History */
+    .body__historyGreetingsBox p {
+        width: 100%;
+    }
+    .historyKoiTash{
+        width: 100%;
+    }
+    .historyDjalalAbad {
+        width: 100%;
+    }
+    .historyDjalalAbad .historyBishkek__mainContainer {
+        width: 100%;
+        justify-content: start;
+    }
+    .historyOsh {
+        width: 100%;
+        flex-direction: column;
+    }
+    .historyOsh .historyBishkek__mainContainer {
+        width: 100%;
+        justify-content: flex-start;
+
+    }
+    /* Bancet */
+    .body__reviewBox h1 {
+        width: 90%;
+    }
+    /*Conferens*/
+    .body__conferenceMobileSlider{
+        display: flex;
+        height: 270px;
+    }
+    .restaurantServiceSliderBox__button{        
+        width: 150px!important;
+    }
+    .conferencePage .body__conferenceSliderBox p{
+        font-size: 13px;
+    }
+    .conferenceSliderBox__iconsBox {
+        width: 100%;
+    }
+    .conferencePageSliderRight .conferenceSliderBox__textInfoWrapper{
+        width: 100%;
+    }
+    .body__conferenceSliderBoxSpecialBackground .conferenceSliderBox__textInfoWrapper {
+        width: 100%;
+    }
+    .conferenceSliderBox__textInfoWrapper{
+        width: 90%;
+    }
+    .conferencePage .conferenceSliderBox__buttonsBox{
+        margin: 0 auto;
+    }
+    .body__conferenceSliderBox{
+        width: 100%;
+    }
+    /* Slider */
+    .body__weddingSlider{
+        width: 90%;
+    }
+    /* history */
+    iframe:not([id*="tlFrame"]) {
+        width: 100%;
+    }
+
+}
+@media (max-width: 480px){
+    /* carousel */
+    .body__navSliderItems {
+        white-space: nowrap;
+        margin: 0 20px 0 20px;
+        font-size: 10px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.3);
+    }
+    .banner__selectedLink{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    /* Slider */
+    .body__weddingSlider .slick-prev{
+        display: none!important;
+    }
+    .body__mainSlider .slick-prev {
+        left: 10px;
+    }
+    .body__mainSlider .slick-next {
+        right: 10px;
+    }
+    .body__weddingSlider .slick-next{ 
+        display: none!important;
+    }
+    .body__weddingSlider .slick-dots{
+        display: flex;
+        align-items: center;
+        bottom: -30px;
+        justify-content: center;
+        position: absolute;
+    }
+    .body__weddingSlider .slick-dots li{
+        list-style: none;
+        margin: 0 5px;
+    }
+    .body__weddingSlider .slick-dots button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background-color: #D9D9D9;
+        border-radius: 50%;
+    }
+    .body__weddingSlider .slick-dots .slick-active button{
+        background-color: #D7B571;
+        border: 1px solid #D7B571;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+    }
+
+    /* Button */
+    #slider__button{
+        position: absolute;
+        top: 450px;
+        opacity: 0.6;
+        background-color:#000000;
+        color:#646767;
+        
+    }
+    #slider__button:hover{
+        color: #ffff;
+    }
+    #button__slider__svadba{
+        display: none;
+    }
+
+    /* Footer */
+    .footer-subBar__mainContainer{
+        justify-content: unset;
+    }
+    .footer-subBar__mainContainer img{
+        display: none;
+
+    }
+    .footer-subBar__mainContainer p{
+        font-size: 14px;
+    }
+
+    /* History */
+    .body__historyGreetingsBox img{
+        height: auto;
+    }
+    .historyKoiTash {
+        height: 400px;
+    }
+    .historyOsh .historyBishkek__mainContainer {
+        width: 100%;
+        position: absolute;
+        top: -175px;
+        justify-content: flex-start;
+        text-align: center;
+    }
+    .historyBishkek__button{
+        display: none;    
+    }
+    .historyDjalalAbad .historyBishkek__mainContainer{
+        width: 100%;
+        position: absolute;
+        top: -175px;
+        justify-content: flex-start;
+        text-align: center;
+    }
+    .historyDjalalAbad{
+        height: 480px;
+        margin-top: 230px;
+    }
+    .historyBishkek__mainContainer {
+        position: absolute;
+        top: -175px;
+        height: auto;
+        width: 100%;
+    }
+    .historyBishkek__mainContainer h1  {
+        color: black;
+        text-align: center;
+        width:100%;
+
+    }
+    .historyBishkek__mainContainer p {
+        color: black;
+        text-align: center;
+        width:100%;
+    }
+    .body__historyTextBox {
+        width: 90%;
+        margin-bottom: 100px;
+    }
+    .historyBishkek {
+        margin-bottom: 230px;
+    }
+    .historyBishkek, .historyOsh, .historyDjalalAbad, .historyKoiTash{
+        height: 270px;
+        background-size: cover;
+        background-position: center;
+    }
+    .historyBishkekShadow{
+        background: none;
+    }
+    .historyOsh{
+        height: auto;
+        margin-top: 230px;
+    }
+    /* Spa */
+    .body__poolMainInfoBox{
+        flex-direction: column;
+    }
+    .poolMainInfoBox__leftBox {
+        width: 100%;
+    }
+    .poolMainInfoBox__rightBox{
+        width: 100%;
+    }
+    .poolMainInfoBox-rightBox__textBoxWrapper{
+        width: 100%;
+    }
+    /* Bancet */
+    .body__mainSliderBox h1{
+        font-size: 28px;
+        width: 90%;
+    }
+    /* Spa */
+    .body__reviewBox h1{
+        font-size: 28px;
+    }
+    /* Restauran */
+    .restaurantMainSliderBox__title{
+        font-size: 28px;
+    }
+    .restaurantMainSliderBox__button{
+        margin-top: -65px;
+        z-index: 1;
+        background-color: rgba(0,0,0,0.6);
+        color: #646767;
+    }
+    .body__restaurantServiceSliderBox {
+        width: 100%;
+        flex-direction: column;
+    }
+    .restaurantServiceSliderBox__mainContainer {
+        width: 90%;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .body__restaurantServiceSlider{
+        position: inherit;
+        width: 100%;
+        right: -25px;
+        margin-top: 50px;
+    }
+    .restaurantServiceSliderBox__button{
+        width: 230px;
+        margin-right: unset;
+    }
+    .conferencePage .restaurantServiceSliderBox__button:first-child{
+        margin-right: unset;
+    }
+
+
+    /* ///// */
+    .body__sliderNavItems{
+        width: 90%;
+    }
+    .body__sliderNavItem{
+        margin: 0 5px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .body__sliderNavItem span{
+        font-size: 14px;
+    }
+
+    /* Bancet  */
+    .body__banquetsBannerBox h1{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .body__banquetsBannerBox p{
+        font-size: 14px;
+        width: 90%;
+    }
+    .body__banquetsBannerBox{
+        height: 500px;
+    }
+
+    /* / */
+    .greetingsBox__mainContainer{
+        padding: 0;
+        margin-top: 50px;
+    }
+    .body__greetingsBox {
+        width: 90%;
+    }
+
+
+    .body__navSlider{
+        overflow: scroll;
+        justify-content: flex-start;
+    }
+    .body__greetingsBox p{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 160%;
+    }
+    .body-weddingSlider__item{
+        height: 400px;
+    }
+    .body-weddingSlider__itemBiggerImg{
+        height: 400px;
+        width: auto;
+    }
+    .body-weddingSlider__itemMiddleImg{
+        height: 400px;
+        width: auto;
+    }
+    .body-weddingSlider__itemSmallImg{
+        width: auto;
+        height: 190px;
+    }
+    .body-mainSlider__item{
+        height: 232px;
+    }
+    .body__mainSlider .slick-list{
+        height: 232px;
+    }
+    .body__reservationBox, .body__mainSliderBox, .body__mainSliderBox{
+        padding-top: 50px;
+    }
+    .body__restaurantServiceSliderBox, .body__conferenceSliderBox, .body__banquetsBannerBox, .body__poolMainInfoBox,
+    .body__aboutConferenceRoomsInfo{
+        margin-top: 50px;
+    }
+    .body__restaurantServiceSliderBox p{
+        margin-bottom: 0;
+    }
+    .body__mainSliderBox h1, .body__restaurantServiceSliderBox h1, .body__conferenceSliderBox h1{
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    .body__conferenceSliderBox p{
+        margin-bottom: 20px;
+    }
+    .body__promotionSliderBox h1{
+        margin-top: 68px;
+        margin-bottom: 20px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .body__reviewBox{
+        margin-top: 70px;
+    }
+    .body__mapBox{
+        margin-top: 50px;
+        height: 400px;
+    }
+    .body__sitesSelectionSliderBox{
+        width: 100%;
+    }
+    .body__sitesSelectionSliderShadowWrapper{
+        width: 100%;
+    }
+    .body__sitesSelectionSlider .slick-arrow{
+        display: none;
+    }
+    .sitesSelectionSlider__itemContainer{
+        width: 95%;
+    }
+    .footer__contacts{
+        padding-bottom: 50px;
+    }
+    .reviewBox__linksWrapper{
+        width: 100%;
+        overflow: scroll;
+    }
+    .body__reviewBoxLink{
+        white-space: nowrap;
+    }
+}
+@media (max-width:360px){
+
+    /* Bancet */
+
+    .body__bannerBoxHotelSubPageBanners h1 {
+        font-size: 20px;
+    }
+    .body__bannerBoxHotelSubPageBanners p{
+        font-size: 14px;
+    }
+    .restaurantMainSliderBox__title{
+        font-size: 20px;
+    }
+    .restaurantMainSliderBox__text{
+        font-size: 14px;
+    }
+    .body__banquetsMainSlider .slick-list{
+        height: 400px;
+    }
+    .body__banquetsMainSlider .slick-next{
+        display: none;
+    }
+    .body__banquetsMainSlider .slick-prev{
+        display: none;
+    }
+    .body__mainSliderBox h1{
+        font-size: 20px;
+    }
+    .body__mainSliderBox p{
+        font-size: 14px;
+    }
+    .body__weddingSlider .slick-prev{
+        display: none!important;
+    }
+    .body__weddingSlider .slick-next{
+        display: none !important;
+    }
+    .body__weddingSlider .slick-list {
+        height: 400px;
+    }
+    .body__reviewBox h1{
+        font-size: 22px;
+    }
+    .body__mapBox{
+        height: 400px;
+    }
+    /* Footer */
+    .footer__groupingBox:last-child h1{
+        font-size: 14px;
+    }
+    .footer__groupingBox h1{
+        font-size: 14px;
+    }
+    .footer__socialButton:first-child{
+        width: 130px;
+    }
+    .footer__groupingBox a{
+        width: 130px;
+    }
+    .footer__groupingBox:last-child div{
+        width: 80%;
+    }
+    /* Spa */
+    .poolMainInfoBox-rightBox__textBox h1{
+        font-size: 20px;
+    }
+    .poolMainInfoBox-rightBox__textBoxWrapper{
+        text-align: center;
+    }
+    .poolMainInfoBox-rightBox__textBox p{
+        font-size: 16px;
+    }
+    .poolMainInfoBox-rightBox__textBox button {
+        margin: 0 auto;
+    }
+    .body__banquetsBannerBox h1{
+        font-size: 20px;
+    }
+    .body__banquetsBannerBox p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .body__restaurantServiceSliderBox h1{
+        font-size: 20px;
+    }
+    .body__restaurantServiceSliderBox p{
+        font-size: 16px;
+    }
+    /* Svadba */
+    .sitesSelectionSliderBox__title{
+        font-size: 20px;
+    }
+    .sitesSelectionSliderBox__text{
+        font-size: 16px;
+    }
+    .body__sitesSelectionSlider .slick-next{
+        display: none;
+    }
+    .body__sitesSelectionSlider .slick-prev{
+        display: none;
+    }
+    .body__banquetsBannerBox {
+        font-size: 14px;
+    }
+    /* Restauren */
+    .body__restaurantMainSlider .slick-next, .slick-prev{
+        display: none;
+    }
+  
+    /* / */
+    .greetingsBox__mainContainer{
+        padding: 0;
+        margin-top: 50px;
+    }
+    .body__greetingsBox {
+        width: 90%;
+    }
+    .body__mainSlider .slick-next{
+        display: none;
+    }
+    .body__mainSlider .slick-prev{
+        display: none !important;
+    }
+}

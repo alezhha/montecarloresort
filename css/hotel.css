@@ -1,0 +1,829 @@
+* {
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat-Regular.ttf") format('ttf');
+    font-weight: 400;
+}
+.hotelPage{
+    background: #FFF8EA;
+}
+.header{
+    flex-direction: column;
+}
+.header__mainContainer{
+    position: relative;
+}
+.header__hotelText{
+    left: calc(100%/2 - 85px);
+    width: 170px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D7B571;
+    cursor: pointer;
+}
+.header__hotelText span{
+    font-weight: 100;
+}
+.header__subContainer{
+    width: 100%;
+    background: #000000;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-subContainer__mainContainer{
+    width: 1059px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-subContainer__mainContainer a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #D7B571;
+}
+.header-subContainer__mainContainer__active{
+    color: #FFFFFF !important;
+}
+.hotelPage .header-subContainer__mainContainer a{
+    color: #D7B571;
+}
+.hotelPage .header-subContainer__mainContainer a:hover{
+    color: #FFF;
+}
+.body{
+    margin-top: 130px;
+}
+.body__bannerBox{
+    background: none;
+}
+.bannerBox__logoContainer{
+    z-index: 1;
+}
+#myVideo{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    margin-top: 100px;
+}
+.footer__groupingBox div{
+    color: #000000;
+}
+.footer__groupingBox a{
+    color: #000000;
+}
+
+.body__reservationBox{
+    padding-top: 100px;
+    width: 1059px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.reservationBox__title{
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.reservationBox__form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reservationBox-form__itemBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reservationBox-form__itemBox label{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    margin-top: -20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.reservationBox-form__itemBox select{
+    padding-left: 20px;
+    width: 250px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    background: transparent;
+}
+.reservationBox-form__itemBox input{
+    width: 127px;
+    padding-left: 20px;
+    padding-right: 14px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    background: transparent;
+}
+.reservationBox__form button{
+    width: 250px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    background: #D7B571;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: pointer;
+}
+.body__mainSliderBox{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.body__mainSliderBox h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.body__mainSliderBox p{
+    width: 880px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.body__mainSlider{
+    width: 1059px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 0;
+}
+.body-mainSlider__item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background: url("../assets/images/Rectangle 344.png") center;*/
+    width: 100%;
+    height: 580px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body__mainSlider .slick-list{
+    width: 100%;
+    overflow: hidden;
+}
+.body__mainSlider .slick-track{
+    display: flex;
+}
+.body__mainSlider .slick-arrow{
+    position: absolute;
+    z-index: 1;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+}
+.body__mainSlider .slick-prev{
+    left: -40px;
+    background: url("../images/Group%201569.png");
+}
+.body__mainSlider .slick-next{
+    right: -40px;
+    background: url("../images/Group%201271.png");
+}
+.body-mainSlider__item div{
+    position: absolute;
+    background: #000000;
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 60px;
+    cursor: pointer;
+}
+.body-mainSlider__item div:hover{
+    background: rgba(255, 255, 255, 0.46);
+}
+.body-mainSlider__item span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #D7B571;
+}
+.body__sliderNavItems{
+    width: 1059px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.body-weddingSlider__itemBiggerImg{
+    width: 428px;
+    /*height: 520px;*/
+}
+.body-weddingSlider__itemMiddleImg{
+    width: 340px;
+    /*height: 520px;*/
+}
+.body-weddingSlider__itemSmallImg{
+    width: 250px;
+    height: 250px;
+}
+.body__sliderNavItem{
+    margin:0 23px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #000000;
+}
+.body__sliderNavItem:hover{
+    color: #D7B571;
+}
+.body__sliderNavItemSelected{
+    color: #D7B571;
+}
+
+
+.body__weddingSlider{
+    width: 1059px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 0;
+}
+.body-weddingSlider__item{
+    height: 520px;
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.body__weddingSlider .slick-list{
+    width: 100%;
+    overflow: hidden;
+}
+.body__weddingSlider .slick-track{
+    display: flex;
+}
+.body__weddingSlider .slick-arrow{
+    position: absolute;
+    z-index: 1;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+}
+.body__weddingSlider .slick-prev{
+    right: 30px;
+    top: -50px;
+    background: url("../images/Group%201569.png");
+}
+.body__weddingSlider .slick-next{
+    right: 0;
+    top: -50px;
+    background: url("../images/Group%201271.png");
+}
+
+.body__banquetsBannerBox{
+    background: url('../images/897f5e4d3ab63c42f73f86e4975a2406%202.png'), center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+}
+.banquetsBannerBox__shadow{
+    width: 100%;
+    height: 392px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(360deg, #1D1D1B 0%, rgba(29, 29, 27, 0) 95.18%);
+    z-index: 0;
+}
+.body__banquetsBannerBox h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.body__banquetsBannerBox p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-bottom: 20px;
+    z-index: 1;
+    color: #FFFFFF;
+    width: 880px;
+}
+.body__banquetsBannerBox a{
+    background: #000000;
+    border-radius: 5px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+.body__banquetsBannerBox span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+.body__banquetsBannerBox a:hover span{
+    opacity: 1;
+}
+
+.body__restaurantServiceSliderBox{
+    margin-top: 100px;
+    padding-bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.restaurantServiceSliderBox__mainContainer{
+    width: 1059px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-between;
+    align-items: flex-start;
+}
+.body__restaurantServiceSliderBox h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    width: 340px;
+    color: #000000;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.body__restaurantServiceSliderBox p{
+    max-width: 430px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 123.5%;
+    color: #000000;
+    margin-bottom: 58px;
+}
+.restaurantServiceSliderBox__button{
+    width: 160px;
+    height: 30px;
+    background: #D7B571;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.body__restaurantServiceSlider{
+    position: absolute;
+    width: 50%;
+    right: -37px;
+}
+.restaurantServiceSlider__item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+}
+.restaurantServiceSlider__imgBox{
+    width: 250px;
+    height: 324px;
+    background-size: cover;
+    background-position: center;
+}
+.body__restaurantServiceSlider .slick-list{
+    width: 100%;
+    overflow: hidden;
+}
+.body__restaurantServiceSlider .slick-track{
+    display: flex;
+}
+.body__restaurantServiceSlider .slick-dots{
+    position: absolute;
+    display: flex;
+    width: calc(100% - 40px);
+    justify-content: space-between;
+    align-items: center;
+}
+.body__restaurantServiceSlider .slick-dots li{
+    list-style-type: none;
+    width: 100%;
+    height: 6px;
+    z-index: 1;
+}
+.body__restaurantServiceSlider .slick-dots .slick-active{
+    list-style-type: none;
+    width: 100%;
+    height: 6px;
+    background: #D7B571;
+    margin-bottom: -21px;
+}
+.body__restaurantServiceSlider .slick-dots .slick-active button{
+    height: 0;
+}
+.body__restaurantServiceSlider .slick-dots button{
+    font-size: 0;
+    height: 2px;
+    width: 100%;
+    z-index: 0;
+    background: #D9D9D9;
+}
+
+.body__conferenceSliderBox{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+}
+.conferenceSliderBox__mainContainer{
+    width: 1059px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.conferenceSliderBox__textInfoWrapper{
+    width: 430px;
+}
+.body__conferenceSliderBox h1{
+    width: 346px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.body__conferenceSliderBox p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.body__conferenceSlider{
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conferenceSlider__item{
+    width: 673px;
+    height: 620px;
+    background-size: cover;
+    background-position: center;
+}
+.body__conferenceSlider .slick-list{
+    width: 100%;
+    overflow: hidden;
+}
+.body__conferenceSlider .slick-track{
+    display: flex;
+}
+.body__conferenceSlider .slick-arrow{
+    position: absolute;
+    z-index: 1;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+}
+.body__conferenceSlider .slick-prev{
+    right: 50px;
+    bottom: 40px;
+    background: url("../images/Group%201569.png");
+}
+.body__conferenceSlider .slick-next{
+    right: 20px;
+    bottom: 40px;
+    transform: rotate(180deg);
+    background: url("../images/Group%201569.png");
+}
+.body__conferenceSlider .slick-disabled{
+    background: url("../images/Group%201270.png");
+}
+
+
+
+.body__conferenceMobileSlider{
+    width: 100%;
+    height: 232px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.conferenceMobileSlider__item {
+    width: 90%;
+    height: 232px;
+    background: url("../images/Rectangle%20417.png"), center;
+    background-size: cover;
+}
+.body__conferenceMobileSlider .slick-list{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.body__conferenceMobileSlider .slick-track{
+    display: flex;
+    height: 100%;
+}
+.body__conferenceMobileSlider .slick-arrow{
+    position: absolute;
+    z-index: 1;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+}
+.body__conferenceMobileSlider .slick-prev{
+    left: 10px;
+    bottom: calc(50% - 20px);
+    background: url("../images/Group%201569.png");
+}
+.body__conferenceMobileSlider .slick-next{
+    right: 10px;
+    bottom: calc(50% - 20px);
+    transform: rotate(180deg);
+    background: url("../images/Group%201569.png");
+}
+.body__conferenceMobileSlider .slick-disabled{
+    background: url("../images/Group%201270.png");
+}
+
+
+
+.body__restaurantBannerBox{
+    background-image: url('../images/897f5e4d3ab63c42f73f86e4975a2406%202%20%281%29.png');
+}
+
+.body__promotionSliderBox{
+    width: 1059px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body__promotionSliderBox h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    width: 100%;
+    color: #000000;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.body__promotionSlider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promotionSlider__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promotionSlider__itemContainer{
+    width: 340px;
+    height: 375px;
+    background: url('../images/Rectangle%20369.png'), center;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.promotionSlider__shadow{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 92px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 10px;
+}
+.promotionSlider__itemContainer p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D7B571;
+    margin-top: 29px;
+    z-index: 1;
+}
+.promotionSlider__itemContainer a{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.promotionSlider__itemContainer span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+.promotionSlider__itemContainer a:hover span{
+    opacity: 1;
+}
+.body__promotionSlider .slick-list{
+    width: 100%;
+    overflow: hidden;
+}
+.body__promotionSlider .slick-track{
+    display: flex;
+}
+.body__reviewBox{
+    background-position: center;
+    background-size: cover;
+    height: 240px;
+    width: 100%;
+    margin-top: 100px;
+}
+.reviewBox__shadow{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.body__reviewBox h1{
+    width: 1059px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.body__reviewBox img{
+    border-bottom: 1px solid #D7B571;
+    padding-bottom: 4px;
+}
+.body__mapBox{
+    width: 1059px;
+    height: 500px;
+    margin-top: 100px;
+}
+.body__mapBox iframe{
+    width: 100%;
+    height: 100%;
+}
+.footer__groupingBox:last-child h1{
+    color: #000000;
+}
+.footer__socialButton{
+    background: #D7B571;
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    justify-content: center;
+}
+.footer__socialButton:first-child{
+    margin-right: 5px;
+}
+.footer__groupingBox:last-child div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.reviewBox__shadow a{
+    border-radius: 5px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D7B571;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px;
+}
+.reviewBox__shadow a:hover{
+    border: 1px solid #D7B571;
+    padding: 9px;
+}

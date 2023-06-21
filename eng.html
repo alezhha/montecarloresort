@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jannat Resort OSH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/hotel.css">
+    <link rel="stylesheet" href="css/conferenceRooms.css">
+    <link rel="stylesheet" href="css/pool.css">
+    <link rel="stylesheet" href="css/restaurant.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+</head>
+
+<body>
+    <div class="mainPage  hotelPage">
+        <div class="header">
+            <div class="header__mainContainer">
+                <a href="" class="header__leftContainer">
+                    <img src="images/Vector.png" class="header__logoImg" alt="logo">
+                </a>
+                <div class="header__hotelText">Monte-Carlo Resort</div>
+                <div class="header__rightContainer">
+                    <p class="header__languageChangeButton">en</p>
+                    <div class="header__listOfLanguages">
+                        <div class="header-listOfLanguages__mainContainer">
+                            <img src="images/Polygon%201.png" alt="icon">
+                            <a href="./index.html" style>ru</a>
+                            <a href="./eng.html" style>en</a>
+                        </div>
+                    </div>
+                    <a href="https://www.booking.com/Share-5OXKF3">
+                        <button> BOOKING </button>
+                    </a>
+                    <a href="https://www.instagram.com/montecarloresort/"><img src="images/Group%201290.png" alt="icon"></a>
+                    <div class="header-mobileMenu__dropdown" onclick="headerDropDownListOpen(this)">
+                        <div class="header-mobileMenu__dropdownClosed">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__subContainer">
+                <div class="header-subContainer__mainContainer">
+                    <a href="#rooms">Rooms</a>
+                    <a href="#pool">Pool</a>
+                    <a href="#restaurant">Restaurant</a>
+                    <a href="#conference">Conference Hall</a>
+                    <a href="#footer">Contacts</a>
+                </div>
+            </div>
+            <div id="header__mobileDropDownList" class="header__mobileDropDownList">
+                <a href="https://www.booking.com/Share-5OXKF3">
+                    <button class="mobileDropDownList__orderButton"> BOOKING </button>
+                </a>
+                <a class="mobileDropDownList__button" href="#rooms">Rooms</a>
+                    <a class="mobileDropDownList__button" href="#pool">Pool</a>
+                    <a class="mobileDropDownList__button" href="#restaurant">Restaurant</a>
+                    <a class="mobileDropDownList__button" href="#conference">Conference Hall</a>
+                    <a class="mobileDropDownList__button" href="#footer">Contacts</a>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="body__bannerBox body__bannerBoxItem">
+                <div class="bannerBox__logoContainer">
+                    <img src="images/Vector.png" alt="logo">
+                </div>
+                <video id="myVideo" autoplay loop muted playsinline>
+                    <source src="media/Monte-Video.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="body__mainSliderBox" id="rooms">
+                <h1>Monte-Carlo Resort</h1>
+                <p>At your choice, we are ready to offer 4 rooms of different classes, from a standard single room to a luxurious presidential suite.</p>
+                <div class="body__sliderNavItems">
+                    <div class="body__sliderNavItem body__sliderNavItemSelected" data-slide-index="0">
+                        Standart<br><span>$60</span>
+                    </div>
+                    <div class="body__sliderNavItem " data-slide-index="1">
+                        Family<br><span>$60</span>
+                    </div>
+                    <div class="body__sliderNavItem " data-slide-index="2">
+                        Lux<br><span>$60</span>
+                    </div>
+                    <div class="body__sliderNavItem " data-slide-index="3">
+                        SuperLux<br><span>$80</span>
+                    </div>
+                </div>
+                <div class="body__mainSlider">
+                    <div class="body-mainSlider__item" style="background-image: url(images/BFP_5674-scaled-e1663279656438.jpg)">
+                        <div>
+                            <a href="https://www.booking.com/Share-5OXKF3">
+                                <span> BOOKING </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-mainSlider__item" style="background-image: url(images/BFP_5721-scaled-e1663279676298.jpg)">
+                        <div>
+                            <a href="https://www.booking.com/Share-5OXKF3">
+                                <span>BOOKING</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-mainSlider__item" style="background-image: url(images/BFP_5522-scaled.jpg)">
+                        <div>
+                            <a href="https://www.booking.com/Share-5OXKF3">
+                                <span> BOOKING </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-mainSlider__item" style="background-image: url(images/BFP_5674-scaled-e1663279656438.jpg)">
+                    <div>
+                        <a href="https://www.booking.com/Share-5OXKF3">
+                            <span> BOOKING </span>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="body__restaurantServiceSliderBox" id="restaurant">
+                <div class="restaurantServiceSliderBox__mainContainer">
+                    <h1>RESTAURANT SERVICE</h1>
+                    <p>The menus of our restaurants are designed taking into account the palette of products and spices of the region, combined with exquisite taste novelties of international standard.</p>
+                    <p>Monte-Carlo Resort's Chef is a General Chef,<br> ready at any day and hour to prepare the best dishes for you.</p>
+                </div>
+                <div class="body__restaurantServiceSlider">
+                    <div class="restaurantServiceSlider__item">
+                        <div class="restaurantServiceSlider__imgBox"
+                            style="background-image: url(images/DSC06388-scaled.jpg)"></div>
+                    </div>
+                    <div class="restaurantServiceSlider__item">
+                        <div class="restaurantServiceSlider__imgBox"
+                            style="background-image: url(images/DSC06392-scaled.jpg)"></div>
+                    </div>
+                    <div class="restaurantServiceSlider__item">
+                        <div class="restaurantServiceSlider__imgBox"
+                            style="background-image: url(images/DSC06407-scaled.jpg)"></div>
+                    </div>
+                    <div class="restaurantServiceSlider__item">
+                        <div class="restaurantServiceSlider__imgBox"
+                            style="background-image: url(images/DSC06411-scaled.jpg)"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="body__conferenceSliderBox" id="conference">
+                <div class="conferenceSliderBox__mainContainer">
+                    <div class="conferenceSliderBox__textInfoWrapper">
+                        <h1>Conference hall</h1>
+                        <p>At your service: 1 large transforming hall for conferences with a capacity of 20 to 300 seats.</p>
+                        <div class="body__conferenceMobileSlider">
+                            <div class="conferenceMobileSlider__item"
+                                style="background-image: url(images/BFP_5661-scaled.jpg)"></div>
+                            <div class="conferenceMobileSlider__item"
+                                style="background-image: url(images/BFP_5667-scaled.jpg)"></div>
+                            <div class="conferenceMobileSlider__item"
+                                style="background-image: url(images/BFP_5664-scaled.jpg)"></div>
+                            <div class="conferenceMobileSlider__item"
+                                style="background-image: url(images/BFP_5671-scaled.jpg)"></div>
+                        </div>
+                        <a href="https://www.booking.com/Share-5OXKF3" class="restaurantMainSliderBox__button"> BOOKING </a>
+                    </div>
+                </div>
+                <div class="body__conferenceSlider">
+                    <div class="conferenceSlider__item" style="background-image: url(images/BFP_5661-scaled.jpg)"></div>
+                    <div class="conferenceSlider__item" style="background-image: url(images/BFP_5667-scaled.jpg)"></div>
+                    <div class="conferenceSlider__item" style="background-image: url(images/BFP_5664-scaled.jpg)"></div>
+                    <div class="conferenceSlider__item" style="background-image: url(images/BFP_5671-scaled.jpg)"></div>
+                </div>
+            </div>
+            <div class="body__poolBannerBox body__banquetsBannerBox" id="pool"
+                style="background-image: url(images/BFP_5850-scaled-e1663278053644.jpg)">
+                <h1>Pool</h1>
+                <p>The large Spa complex has a variety of services for your comfortable stay at the Monte-Carlo Resort. Vacation for the whole family!</p>
+                <a href="https://www.booking.com/Share-5OXKF3"><span> BOOKING </span></a>
+                <div class="banquetsBannerBox__shadow"></div>
+            </div>
+            <div class="body__mapBox">
+                <iframe title="Monte-Carlo" allowtransparency="true" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12055.298034008478!2d73.0274365!3d40.9415132!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bd15b9a1626cc1%3A0xf43a9f331faf20a7!2sMonte-Carlo%20Resort!5e0!3m2!1sru!2skg!4v1685795006403!5m2!1sru!2skg" width="600" height="450" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="footer" id="footer">
+            <div class="footer__contacts" id="footer__contacts">
+                <div class="footer__groupingBox">
+                    <h1>HOTEL ADDRESS</h1>
+                    <div>
+                        <p>Republic of Kyrgyzstan,<br> Jalal-Abad city, st. Kurortnaya, 38</p>
+                    </div>
+                </div>
+                <div class="footer__groupingBox">
+                    <h1>BOOKING DEPARTMENT</h1>
+                    <div>
+                        <p>Mobile number:<br>
+                            <a href="tel:996775333313">+996 775 33 33 13</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__groupingBox">
+                    <h1>RESTAURANT</h1>
+                    <div>
+                        <p>Mobile number:<br>
+                            <a href="tel:996775333313">+996 775 33 33 13</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__groupingBox">
+                    <h1>POOL</h1>
+                    <div>
+                        <p>Mobile number:<br>
+                            <a href="tel:996775333313">+996 775 33 33 13</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__groupingBox">
+                    <h1> HAVE QUESTIONS ABOUT Monte-Carlo Resort? SEND US A MESSAGE! </h1>
+                    <div>
+                        <a class="footer__socialButton"
+                            href="https://api.whatsapp.com/send/?phone=996775333313&text&type=phone_number&app_absent=0">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__subBar">
+                <div class="footer-subBar__mainContainer">
+                    <p>© 2023. Monte-Carlo Resort. Official website.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquerybibl.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/hotel.js"></script>
+    <script src="js/conferenceRooms.js"></script>
+    <script src="js/pool.js"></script>
+    <script src="js/restaurant.js"></script>
+    <script src="js/conferenceRooms.js"></script>
+</body>
+
+</html>

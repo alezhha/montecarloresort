@@ -1,0 +1,232 @@
+.body__bannerBoxHotelSubPageBanners{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/image%201%20%281%29.png"), center;
+    background-size: cover !important;
+}
+.body-bannerBoxHotelSubPageBanners__shadow{
+    position: absolute;
+    width: 100%;
+    height: 372px;
+    background: linear-gradient(360deg, #1D1D1B 0%, rgba(29, 29, 27, 0) 95.18%);
+    bottom: 0;
+}
+.body__bannerBoxHotelSubPageBanners h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.body__bannerBoxHotelSubPageBanners p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    z-index: 1;
+    width: 880px;
+}
+.body__bannerBoxHotelSubPageBanners a{
+    background: #000000;
+    border-radius: 5px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 30px;
+}
+.body__bannerBoxHotelSubPageBanners span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+.body__bannerBoxHotelSubPageBanners a:hover span{
+    opacity: 1;
+}
+.body__aboutConferenceRoomsInfo{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body__aboutConferenceRoomsInfo h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.body__aboutConferenceRoomsInfo p{
+    width: 880px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #000000;
+}
+.conferencePageSliderRight .conferenceSliderBox__mainContainer{
+    align-items: flex-start;
+}
+.conferencePageSliderRight .body__conferenceSlider{
+    right: 0;
+    left: unset;
+}
+.conferencePageSliderRight .body__conferenceSlider .slick-prev{
+    left: 20px;
+    right: unset;
+}
+.conferencePageSliderRight .body__conferenceSlider .slick-next{
+    right: unset;
+    left: 50px;
+}
+        .conferencePage .body__conferenceSliderBoxSpecialBackground{
+    background: rgba(215, 181, 113, 0.15);
+}
+.conferencePage .body__conferenceSliderBox h1, .conferencePage .body__conferenceSliderBox p{
+    margin-bottom: 30px;
+}
+.conferencePage .conferenceSliderBox__mainContainer span{
+    font-weight: bold;
+}
+.body__conferenceMobileSlider{
+    display: none;
+}
+.conferenceSliderBox__iconsBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.conferenceSliderBox__icons div{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    background: rgba(215, 181, 113, 0.15);
+}
+.conferenceSliderBox__icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conferenceSliderBox__icons p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    width: 80px;
+    color: #000000;
+    white-space: nowrap;
+}
+.conferencePage .conferenceSliderBox__buttonsBox{
+    display: flex;
+}
+.conferencePage .restaurantServiceSliderBox__button:first-child{
+    margin-right: 20px;
+}
+.conferencePage .restaurantServiceSliderBox__button:last-child{
+    background: rgba(215, 181, 113, 0.5);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.restaurantServiceSliderBox__buttonSelected{
+    background: #D7B571 !important;
+}
+.conferenceSliderBox__additionalInfoBox{
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.conferenceSliderBox__additionalInfoBoxOpened{
+    display: flex;
+}
+.conferenceSliderBox-additionalInfoBox__mainContainer{
+    width: 1059px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
+.conferenceSliderBox__additionalInfoItemsWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.conferenceSliderBox__additionalInfoItem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.conferenceSliderBox__additionalInfoItem img{
+    margin-right: 20px;
+}
+.reviewBox__linksWrapper{
+    width: 1059px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.body__reviewBoxLink{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.body__reviewBoxLink:hover{
+    color: #D7B571;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #D7B571;
+}
+.body__reviewBoxLinkSelected{
+    color: #D7B571;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #D7B571;
+}
+.body__reviewBoxLink {
+    margin: 0 20px;
+    width: unset;
+    height: unset;
+    background: unset;
+    border-radius: unset;
+}
