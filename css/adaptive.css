@@ -342,9 +342,6 @@
     .body__promotionSliderBox h1{
         text-align: center;
     }
-    .footer__groupingBox a{
-        margin-top: 10px;
-    }
     .footer__buttons{
         display: flex;
     }
@@ -478,6 +475,9 @@
 
 }
 @media (max-width: 480px){
+    .footer__groupingBox p {
+        margin-top: 20px;
+    }
     /* carousel */
     .body__navSliderItems {
         white-space: nowrap;

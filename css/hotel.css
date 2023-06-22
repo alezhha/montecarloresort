@@ -1,6 +1,13 @@
 * {
     scroll-behavior: smooth;
 }
+
+.footer__groupingBox p br {
+    display: none;
+}
+.footer__groupingBox p img {
+    margin-bottom: -5px;
+}
 @font-face {
     font-family: 'Montserrat';
     src: url("../fonts/Montserrat-Regular.ttf") format('ttf');
@@ -809,6 +816,7 @@
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 .reviewBox__shadow a{
     border-radius: 5px;
