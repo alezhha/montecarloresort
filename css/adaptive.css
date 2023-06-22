@@ -1,4 +1,11 @@
 @media (max-width: 1059px){
+    #pool .body__mainSlider div {
+        height: 500px;
+        background-position-y: 0 !important;
+    }
+    #pool .body__mainSlider button {
+        display: none;
+    }
     /* Footer */
     .footer{
         margin-top: 50px;
