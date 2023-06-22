@@ -2,6 +2,10 @@
     scroll-behavior: smooth;
 }
 
+#pool > .body__mainSlider > .slick-arrow {
+    display: none !important;
+}
+
 .footer__groupingBox p br {
     display: none;
 }

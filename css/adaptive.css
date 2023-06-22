@@ -3,9 +3,6 @@
         height: 500px;
         background-position-y: 0 !important;
     }
-    #pool > .body__mainSlider > .slick-arrow {
-        display: none !important;
-    }
     /* Footer */
     .footer{
         margin-top: 50px;
